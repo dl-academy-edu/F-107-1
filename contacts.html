@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Contact  Us</title>
 </head>
 <body>
-    <h1>Contacts</h1>
+    <h1>Contact  Us</h1>
+    <form action="" method="POST">
+        <fieldset>
+            <div>
+                <label for="contact-name">name</label>
+                <input type="text" id="contant-name" placeholder="Ivan Ivanov">
+
+            </div>
+            <div>
+                <label for="contact-phone">Phone</label>
+                <input type="tel" id="contact-phone" placeholder="+7 (967) 827 - 83 - 94">
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="contant-email">Phone</label>
+            <input type="email" id="contant-email">
+        </fieldset>
+        <fieldset>
+            <legend>
+                Payment Methods
+            </legend>
+            <label for="contant-cach">Cash</label>
+            <input type="checkbox" id="contant-cach">
+            <label for="contant-delivery">Delivery</label>
+            <input type="checkbox" id="contant-delivery">
+        </fieldset>
+        <fieldset>
+            <legend>Do you need a report on the services provided?</legend>
+            <label for="report-yes" name="radio">Yes</label>
+            <input type="radio" id="report-yes">
+            <label for="report-no" name="radio">No</label>
+            <input type="radio" id="report-no">
+        </fieldset>
+
+        <button type="submit">Submit</button>
+            
+    </form>
+
 </body>
 </html>
