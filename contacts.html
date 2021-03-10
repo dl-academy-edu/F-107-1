@@ -7,43 +7,86 @@
     <title>Contact  Us</title>
 </head>
 <body>
-    <h1>Contact  Us</h1>
-    <form action="" method="POST">
-        <fieldset>
-            <div>
-                <label for="contact-name">name</label>
-                <input type="text" id="contant-name" placeholder="Ivan Ivanov">
+    <header>
+		<img src="images/logo.png" alt="" class="logo">
+		<nav>
+			<ul>
+				<li><a href="#">Catalog</a></li>
+				<li><a href="#">Servises</a></li>
+				<li><a href="#">Blog</a></li>
+                <li><a href="#">About us</a></li>
+			</ul>
+		</nav>
+		<a href="tel:+7194319698">719-431-9698</a>
+		<a href="contacts.html" class="button">Contact Us</a>
+	</header>
+    <main>
+        <h1>Contact  Us</h1>
+        <form action="" method="POST">
+            <fieldset>
+                <div>
+                    <label for="contact-name">name</label>
+                    <input type="text" id="contant-name" placeholder="Ivan Ivanov">
 
-            </div>
-            <div>
-                <label for="contact-phone">Phone</label>
-                <input type="tel" id="contact-phone" placeholder="+7 (967) 827 - 83 - 94">
-            </div>
-        </fieldset>
-        <fieldset>
-            <label for="contant-email">Phone</label>
-            <input type="email" id="contant-email">
-        </fieldset>
-        <fieldset>
-            <legend>
-                Payment Methods
-            </legend>
-            <label for="contant-cach">Cash</label>
-            <input type="checkbox" id="contant-cach">
-            <label for="contant-delivery">Delivery</label>
-            <input type="checkbox" id="contant-delivery">
-        </fieldset>
-        <fieldset>
-            <legend>Do you need a report on the services provided?</legend>
-            <label for="report-yes" name="radio">Yes</label>
-            <input type="radio" id="report-yes">
-            <label for="report-no" name="radio">No</label>
-            <input type="radio" id="report-no">
-        </fieldset>
+                </div>
+                <div>
+                    <label for="contact-phone">Phone</label>
+                    <input type="tel" id="contact-phone" placeholder="+7 (967) 827 - 83 - 94">
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="contant-email">Phone</label>
+                <input type="email" id="contant-email">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Payment Methods
+                </legend>
+                <label for="contant-cach">Cash</label>
+                <input type="checkbox" id="contant-cach">
+                <label for="contant-delivery">Delivery</label>
+                <input type="checkbox" id="contant-delivery">
+            </fieldset>
+            <fieldset>
+                <legend>Do you need a report on the services provided?</legend>
+                <label for="report-yes">Yes</label>
+                <input type="radio" name="radio" id="report-yes">
+                <label for="report-no">No</label>
+                <input type="radio" name="radio" id="report-no">
+            </fieldset>
 
-        <button type="submit">Submit</button>
-            
-    </form>
+            <button type="submit">Submit</button>
+                
+        </form>
+    </main>
+
+    <footer>
+		<h2>Subscribe to our social networks</h2>
+		<ul class="social">
+			<li>
+				<a href="#" target="_blank">
+					<svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M37.2118 20.1067V15.2733H32.7059C28.9836 15.2733 26.4368 18.3667 26.4368 22.2333V24.94H21.735V29.3867H26.4368V42.92H31.7263V29.3867H37.2118V24.94H31.7263V21.8467C31.7263 20.88 32.3141 20.3 32.9018 20.3H37.2118V20.1067ZM30.1591 0C46.4195 0 59.5454 12.9533 59.5454 29C59.5454 45.0467 46.4195 58 30.1591 58C13.8986 58 0.772705 45.0467 0.772705 29C0.772705 12.9533 13.8986 0 30.1591 0Z" fill="white"/>
+					</svg>						
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<img src="img.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<img src="img.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<img src="img.png" alt="">
+				</a>
+			</li>
+		</ul>
+	</footer>
 
 </body>
 </html>
