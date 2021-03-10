@@ -4,33 +4,40 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Main page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<img src="images/logo.png" alt="" class="logo">
-		<nav>
-			<ul>
-				<li><a href="#">Catalog</a></li>
-				<li><a href="#">Servises</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">About us</a></li>
+	<header class="header container" id="header-top">
+		<img src="images/logo.png" alt="" class="header-logo">
+		<nav class="header-nav">
+			<ul class="outline header-list">
+				<li class="header-item"><a href="#">Catalog</a></li>
+				<li class="header-item"><a href="#">Servises</a></li>
+				<li class="header-item"><a href="#">Blog</a></li>
+				<li class="header-item"><a href="#">About us</a></li>
 			</ul>
 		</nav>
-		<a href="tel:+7194319698">719-431-9698</a>
+		<a class="header-phone" href="tel:+7194319698">719-431-9698</a>
 		<a href="contacts.html" class="button">Contact Us</a>
 	</header>
 	<main>
-		<section class="banner">
-			<h1>The world’s leading cleaning company</h1>
-			<button class="button">Get a Free Estimate</button>
+
+		<section class="banner" style="color:green;">
+			<div class="container">
+				<h1>The world’s leading cleaning company</h1>
+				<button class="button">Get a Free Estimate</button>
+			</div>
 		</section>
-		<section class="service">
+		<section class="service container">
 			<h2>OUR MOST POPULAR SERVICES</h2>
-			<ul>
+			<h2>sfgdfg df g</h2>
+			<ul class="outline">
 				<li>
 					<a href="#">
-						<img src="images/service1.jpg" alt="">
+						<img src="images/service1.jpg" alt="" height="165" width="280">
 					</a>
 					<a href="#">
 						<h3>Carpet Cleaning</h3>
@@ -40,7 +47,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/service2.jpg" alt="">
+						<img src="images/service2.jpg" alt="" height="165" width="280">
 					</a>
 					<a href="#">
 						<h3>Carpet Cleaning</h3>
@@ -50,7 +57,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/service3.jpg" alt="">
+						<img src="images/service3.jpg" alt="" height="165" width="280">
 					</a>
 					<a href="#">
 						<h3>Carpet Cleaning</h3>
@@ -60,7 +67,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/service4.jpg" alt="">
+						<img src="images/service4.jpg" alt="" height="165" width="280">
 					</a>
 					<a href="#">
 						<h3>Carpet Cleaning</h3>
@@ -70,7 +77,7 @@
 				</li>
 			</ul>
 		</section>
-		<section class="about">
+		<section class="about container">
 			<div class="">
 				<h2>Why Haley’s
 					Chem-Dry?</h2>
@@ -83,17 +90,18 @@
 			</div>
 			<img src="img.png" alt="">
 		</section>
-		<section class="brands">
+		<section class="brands container">
 			<h2 class="hidden">Brands</h2>
-			<ul>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
-				<li><img src="img.png" alt=""></li>
+			<ul class="outline">
+				<li><img src="images/brand/brand1.png" alt=""></li>
+				<li><img src="images/brand/brand2.png" alt=""></li>
+				<li><img src="images/brand/brand3.png" alt=""></li>
+				<li><img src="images/brand/brand4.png" alt=""></li>
+				<li><img src="images/brand/brand5.png" alt=""></li>
+				<li><img src="images/brand/brand6.png" alt=""></li>
+				<li><img src="images/brand/brand7.png" alt=""></li>
+				<li><img src="images/brand/brand8.png" alt=""></li>
+				<li><img src="images/brand/brand8.png" alt=""></li>
 			</ul>
 		</section>
 		<section class="map">
@@ -104,31 +112,36 @@
 		</section>
 	</main>
 	<footer>
-		<h2>Subscribe to our social networks</h2>
-		<ul class="social">
-			<li>
-				<a href="#" target="_blank">
-					<svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M37.2118 20.1067V15.2733H32.7059C28.9836 15.2733 26.4368 18.3667 26.4368 22.2333V24.94H21.735V29.3867H26.4368V42.92H31.7263V29.3867H37.2118V24.94H31.7263V21.8467C31.7263 20.88 32.3141 20.3 32.9018 20.3H37.2118V20.1067ZM30.1591 0C46.4195 0 59.5454 12.9533 59.5454 29C59.5454 45.0467 46.4195 58 30.1591 58C13.8986 58 0.772705 45.0467 0.772705 29C0.772705 12.9533 13.8986 0 30.1591 0Z" fill="white"/>
-					</svg>						
-				</a>
-			</li>
-			<li>
-				<a href="#" target="_blank">
-					<img src="img.png" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="#" target="_blank">
-					<img src="img.png" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="#" target="_blank">
-					<img src="img.png" alt="">
-				</a>
-			</li>
-		</ul>
+		<div class="container">
+			<h2>Subscribe to our social networks</h2>
+			<ul class="outline" class="social">
+				<li>
+					<a href="#" target="_blank">
+						<svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M37.2118 20.1067V15.2733H32.7059C28.9836 15.2733 26.4368 18.3667 26.4368 22.2333V24.94H21.735V29.3867H26.4368V42.92H31.7263V29.3867H37.2118V24.94H31.7263V21.8467C31.7263 20.88 32.3141 20.3 32.9018 20.3H37.2118V20.1067ZM30.1591 0C46.4195 0 59.5454 12.9533 59.5454 29C59.5454 45.0467 46.4195 58 30.1591 58C13.8986 58 0.772705 45.0467 0.772705 29C0.772705 12.9533 13.8986 0 30.1591 0Z"
+								fill="white" />
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">
+						<img src="img.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">
+						<img src="img.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">
+						<img src="img.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+
 	</footer>
 
 	<div class="modal__form">
@@ -152,12 +165,12 @@
 			</fieldset>
 			<fieldset>
 				<label for="">Message</label>
-				<textarea >Message</textarea>
+				<textarea>Message</textarea>
 			</fieldset>
 			<button>
 				button
 			</button>
-			
+
 		</form>
 	</div>
 </body>
