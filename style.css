@@ -67,6 +67,7 @@ img {
 }
 
 .header-logo {
+    max-width: 142px;
 }
 
 .header-nav {
@@ -85,4 +86,125 @@ img {
 .header-phone {
     color: #95459A;
     margin-right: 24px;
+}
+
+
+/* Banner */
+
+.banner {
+    background-image: url('images/fon.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    background: url('images/fon.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%) no-repeat center bottom cover;
+    /* background-size: cover; */
+    margin-bottom: 80px;
+}
+
+.banner .container {
+    padding: 143px 0 286px;
+}
+
+.banner-title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 1;
+    color: #00559D;
+    margin: 0 0 49px;
+}
+
+.banner-btn {
+    background: #95459A;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 360px;
+    cursor: pointer;
+}
+.banner-btn:hover {
+    background: #D665DD;
+}
+.banner-btn:active {
+    background: #722A77;
+}
+
+/* Service */
+
+.service {
+    margin-bottom: 110px;
+}
+
+.service-title {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #00559D;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px -20px;
+}
+
+.service-item {
+    width: 25%;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+/* about */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-img {
+    max-width: 580px;
+    position: relative;
+}
+
+.about-img::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    background: #008752;
+    width: 500px;
+    height: 430px;
+    z-index: -1;
+}
+
+/* brands  */
+
+.brand-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-item {
+    opacity: .5;
+}
+
+.brand-item:hover {
+    opacity: 1;
+}
+
+.brand-item:active {
+    opacity: .2;
+}
+
+/* footer */
+
+.footer {
+    background: #00559D;
 }
