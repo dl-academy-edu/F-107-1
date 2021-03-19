@@ -114,6 +114,7 @@ img {
 }
 
 .banner-title {
+    max-width: 80%;
     font-weight: 900;
     font-size: 90px;
     line-height: 1;
@@ -244,6 +245,21 @@ img {
     max-width: 380px;
     padding: 50px 44px;
 }
+
+.map-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 17px;
+}
+
+.map-phone {
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    display: block;
+}
+
 .map .button {
     background: #95459A;
 }
