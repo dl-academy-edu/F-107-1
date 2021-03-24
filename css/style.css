@@ -100,7 +100,7 @@ img {
 /* Banner */
 
 .banner {
-    background-image: url('images/fon.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+    background-image: url('../images/fon.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
     background-repeat: no-repeat;
     background-position: center bottom;
 

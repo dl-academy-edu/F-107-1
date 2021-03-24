@@ -75,8 +75,9 @@
     color: rgba(255, 182, 18, 0.5);
 }
 
-.contact-block input {
+.contact-block {
     max-width: 280px;
+    width: 100%;
 }
 
 .contact-line {
