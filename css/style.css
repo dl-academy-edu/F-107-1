@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', Arial, sans-serif; 
     font-style: normal;
     margin: 0;
     box-sizing: border-box;
@@ -67,8 +67,12 @@ img {
 /* HEADER */
 .header {
     padding: 35px 0;
-    display: flex;
-    align-items: center;
+    -webkit-display: flex;
+        -moz-display: flex;
+            display: flex;
+    -webkit-align-items: center;
+        -moz-align-items: center;
+            align-items: center;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
@@ -104,7 +108,7 @@ img {
     background-repeat: no-repeat;
     background-position: center bottom;
 
-    background: url('images/fon.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%) no-repeat center bottom cover;
+    background: url('../images/fon.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%) no-repeat center bottom cover;
     /* background-size: cover; */
     margin-bottom: 80px;
 }
